@@ -1,0 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+*{margin:0;padding:0}html,body{overflow:hidden}.webgl{position:fixed;top:0;left:0;outline:none}.loader{font-family:"Roboto",sans-serif;background-color:#1f1e1c;width:100vw;height:100vh;position:fixed;top:0;left:0;z-index:100;display:flex;justify-content:center;align-items:center;flex-direction:column}.loader_title{color:#fff}#informations{font-family:"Roboto",sans-serif;color:#fff;margin-top:16px}#scroll_0,#scroll_1,#scroll_2{font-family:"Roboto",sans-serif;color:#fff;position:absolute;z-index:100;top:70%;left:50%;font-size:21px;font-weight:bolder;transform:translate(-50%, 0%) rotateX(90deg)}
+
+/*# sourceMappingURL=main.css.map*/

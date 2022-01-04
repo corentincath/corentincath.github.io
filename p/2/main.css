@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&display=swap);
+*
+{
+    margin: 0;
+    padding: 0;
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+    -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+    user-select: none; /* Propriété standard */
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    font-size: 5vw;
+    transform: translate(-50%, 50%);
+    color:silver;
+       text-shadow:
+       4px 4px 1px #300000,
+       4px 6px 1px #400000,
+       4px 8px 1px #500000,
+       4px 10px 1px #600000,
+       4px 12px 1px #700000,
+       4px 14px 1px #800000,
+       4px 16px 1px #900000,
+       4px 18px 1px #A00000,
+       4px 20px 1px #B00000,
+       4px 22px 1px #C00000,
+       4px 24px 1px #D00000,
+       4px 26px 1px #E00000,
+       4px 28px 1px #F00000,
+       4px 30px 1px #FA0000,
+       4px 32px 1px #FB0000,
+       4px 34px 1px #FC0000,
+       4px 36px 1px #FD0000,
+       4px 38px 1px #FE0000,
+       4px 40px 2px #FF0000;
+}
+
+.start{
+    position: absolute;
+    z-index: 100;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#start{
+    margin-top: 10px;
+    padding: 5px 16px 5px 16px;
+    background-color: black;
+}
+
+#start:hover{
+    margin-top: 10px;
+    padding: 5px 16px 5px 16px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+#forward{
+    color: white;
+    font-size: 24px;
+    top: 0;
+    height: 33px;
+    z-index: 1000;
+    width: 100%;
+}
+
+#backward{
+    position: absolute;
+    z-index: 100;
+    color: white;
+    font-size: 24px;
+    bottom: 0;
+    height: 33px;
+    z-index: 1000;
+    width: 100%;
+}
+#left{
+    position: absolute;
+    z-index: 100;
+    color: white;
+    font-size: 24px;
+    top: 0;
+    width: 45%;
+    height: 100%;
+}
+#right{
+    position: absolute;
+    z-index: 100;
+    color: white;
+    font-size: 24px;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 100%;
+}
+
+#gamepad_move{
+    display: none;
+    background-image: url(assets/images/9fd2a13c3398c95f.png);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 100px;
+    width: 100px;
+    z-index: 100;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (orientation:portrait){
+    body {
+      height: 100vw;
+      transform: rotate(90deg);
+    }
+  }
+
+/*# sourceMappingURL=main.css.map*/
