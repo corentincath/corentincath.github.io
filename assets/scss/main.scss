@@ -1,11 +1,17 @@
 @import "./normelize.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 body{
     padding: 1rem;
 }
 
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
 h1{
+    margin-bottom: 0;
     overflow: hidden;
+    font-weight: 700;
     span{
         margin-right: 1rem;
         text-transform: uppercase;
@@ -18,4 +24,22 @@ h1{
     .span2{
         transform: translate(0px, 50px);
     }
+}
+
+h3{
+    margin-top: 0;
+    transform: translate(-300px, 0);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+hr{
+    height: 2px;
+    background: black;
+    border: none;
 }
