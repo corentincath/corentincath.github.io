@@ -14,6 +14,8 @@ h1{
     margin-bottom: 0;
     overflow: hidden;
     font-weight: 700;
+    margin-top: 0;
+    line-height: 20px;
     span{
         margin-right: 1rem;
         text-transform: uppercase;
@@ -44,4 +46,5 @@ hr{
     height: 2px;
     background: black;
     border: none;
+    transform: translate(-300px, 0);
 }
