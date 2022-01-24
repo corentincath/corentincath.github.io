@@ -8,6 +8,7 @@ $(document).ready(function() {
     const title_span = document.querySelectorAll('h1 span');
     const sub_title = document.querySelector('h3');
     const hr = document.querySelectorAll('hr');
+    const a = document.querySelectorAll('a');
 
     const tl = gsap.timeline({delay: 1});
     tl.to(title_span[0], {y:0, duration: 1}, 0.5);
@@ -15,6 +16,9 @@ $(document).ready(function() {
     tl.to(sub_title, {x:0, duration: 1}, 0);
     for (let index = 0; index < hr.length; index++) {
         tl.to(hr[index], {x:0, duration: 1}, 1.5);
+    }
+    for (let index = 0; index < a.length; index++) {
+        tl.to(a[index], {x:0, duration: 1}, 1.5);
     }
 
 });
