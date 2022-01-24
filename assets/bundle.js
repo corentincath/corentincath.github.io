@@ -7,6 +7,6 @@ import gsap from 'gsap';
 $(document).ready(function() {
     var title_span = document.querySelectorAll('h1 span');
 
-    gsap.to(title_span[0], {transform: "translateY(10px)"});
+    gsap.to(title_span[0], {y:100});
     console.log(title_span)
 });
