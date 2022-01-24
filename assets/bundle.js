@@ -5,8 +5,10 @@ import gsap from 'gsap';
 
 
 $(document).ready(function() {
-    var title_span = document.querySelectorAll('h1 span');
+    const title_span = document.querySelectorAll('h1 span');
 
-    gsap.to(title_span[0], {y:100});
-    console.log(title_span)
+    const tl = gsap.timeline({repeat: 2, repeatDelay: 1, delay: 1});
+    tl.to(title_span[0], {y:0, duration: 1});
+    tl.to(title_span[1], {y:0, duration: 1});
+
 });
